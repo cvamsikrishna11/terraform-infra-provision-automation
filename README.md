@@ -5,6 +5,7 @@
 #### Provides a simple html application exposed as a docker container automatically
 
 * Dependencies:
+    
     Changes required in the provider.tf
     1. Replace your AWS account S3 bucket name (Line 7)
 
