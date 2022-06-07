@@ -125,8 +125,6 @@ resource "aws_iam_instance_profile" "demo_profile" {
   role = "${aws_iam_role.demo_role.name}"
 }
 
-
-
 resource "aws_instance" "demo" {
   ami           = "ami-0ca285d4c2cda3300"          #Amazon Linux AMI in us-west-2
   instance_type = "t2.micro"
@@ -147,10 +145,6 @@ resource "aws_instance" "demo" {
 
   user_data = "${file("scripts/shell.sh")}"
 }
-
-
-
-
 
 resource "aws_eip" "demo" {
   vpc = true
