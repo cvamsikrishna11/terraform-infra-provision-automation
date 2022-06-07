@@ -1,8 +1,8 @@
-##Terraform project
+### Terraform project
 
 ### This project provides the AWS infra provisioning with Terraform
 
-## Provides a simple html application exposed as a docker container automatically
+#### Provides a simple html application exposed as a docker container automatically
 
 * Dependencies:
     Changes required in the main.tf
@@ -10,7 +10,11 @@
     2. Replace your own public IP (Line 73)
 
 * Build & Deploy
-    `terraform init`
-    `terrform plan`
-    `terraform apply`
+    ```
+    terraform init
+    terrform plan
+    terraform apply
+        
+    ```
+
 
